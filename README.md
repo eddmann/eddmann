@@ -2,8 +2,8 @@
 
 **🟢 Open to opportunities**
 
-> I'm looking to join a forward-thinking engineering team building impactful products.
-> I'm especially interested in AI, health, and education, and I value learning, contribution, and great colleagues.
+> Seeking a forward-thinking engineering team that builds impactful products, with a focus on solving challenging problems.
+> Learning, contributing, and collaborating with great colleagues are what matter most.
 
 ## 👤 About
 
