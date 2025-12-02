@@ -51,16 +51,17 @@ Building MCP servers to connect LLMs with real-world data:
 <details>
 <summary><strong>All Projects</strong></summary>
 
-### Applications
+### Products
 
-| Project                                        | Description                                                          | Tech                 |
-| ---------------------------------------------- | -------------------------------------------------------------------- | -------------------- |
-| [MyPodcast](https://mypodcast.cloud)           | Turns saved articles and YouTube videos into a narrated podcast feed | PHP, Laravel         |
-| [Chessmate](https://chessmate.cloud)           | Multi-engine chess analysis PWA with online and local (WASM) engines | TypeScript, PWA      |
-| [DailyThing](https://dailything.cloud)         | Personalised, bite-sized content throughout the day                  | PHP, TypeScript, PWA |
-| [Name That Color](https://namethatcolor.cloud) | Real-time colour detection for names, RGB, and HEX                   | TypeScript, PWA      |
+| Project                                           | Description                                                          | Tech                     |
+| ------------------------------------------------- | -------------------------------------------------------------------- | ------------------------ |
+| [MyPodcast](https://mypodcast.cloud)              | Turns saved articles and YouTube videos into a narrated podcast feed | PHP, Laravel             |
+| [Chessmate](https://chessmate.cloud)              | Multi-engine chess analysis PWA with online and local (WASM) engines | TypeScript, PWA          |
+| [DailyThing](https://dailything.cloud)            | Personalised, bite-sized content throughout the day                  | PHP, TypeScript, PWA     |
+| [Name That Color](https://namethatcolor.cloud)    | Point your camera at anything to get its color name, HEX, and RGB    | TypeScript, PWA          |
+| [Secret Santa](https://secret-santa.eddmann.com/) | Organise draws with exclusions, gift ideas, and anonymous messaging  | Laravel, TypeScript, PWA |
 
-### macOS & iOS
+### Tools
 
 | Project                                                 | Description                                           |
 | ------------------------------------------------------- | ----------------------------------------------------- |
