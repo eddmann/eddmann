@@ -2,31 +2,98 @@
 
 **🟢 Open to opportunities**
 
-> Seeking a forward-thinking engineering team that builds impactful products, with a focus on solving challenging problems.
+> Senior engineer seeking a forward-thinking team building impactful products.
 > Learning, contributing, and collaborating with great colleagues are what matter most.
 
-## 👤 About
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-eddmann-0A66C2?logo=linkedin)](https://linkedin.com/in/eddmann)
+[![Blog](https://img.shields.io/badge/Blog-eddmann.com-2962FF)](https://eddmann.com)
+[![Podcast](https://img.shields.io/badge/Podcast-Compiled_Conversations-8B5CF6)](https://compiledconversations.com)
 
-- 📝 I write at [eddmann.com](https://eddmann.com) about the projects and technology I'm experimenting with and building.
-- 🎙️ Host of [Compiled Conversations](https://compiledconversations.com/), interviewing influential figures in software and technology.
-- 🎙️ Former co-host of [Three Devs and a Maybe](https://threedevsandamaybe.com/) (2013-2019), covering a broad range of software topics.
+---
 
-## 🛠️ Skills
+## Highlights
 
-- Languages: TypeScript, PHP, Rust
-- Cloud & Infra: AWS (Lambda, Fargate, API Gateway, S3, CloudFront), AWS CDK, Terraform, Serverless Framework
-- Platforms & Apps: Web, PWA, iOS, WASM
-- Architecture: DDD, Hexagonal Architecture, CQRS, Event Sourcing, Testing
+**[serverless-fargate](https://github.com/eddmann/serverless-fargate)** · _8k+ weekly downloads_<br>
+Serverless Framework plugin for long-running Fargate ECS tasks. Used in production by teams worldwide.
 
-## 🚀 Featured Projects
+**[phpboy](https://github.com/eddmann/phpboy)** · _Game Boy Color emulator in PHP 8.4_<br>
+Full DMG compatibility, 100% Blargg test pass rate. CLI, WebAssembly, and SDL2 frontends.
 
-| Project                                                                     | Description                                                                                                                                                        | Tech                               |
-| --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------- |
-| [MyPodcast](https://mypodcast.cloud)                                        | Turns saved articles and YouTube videos into a personal, narrated podcast feed.                                                                                    | PHP, Laravel, Serverless Framework |
-| [Chessmate](https://chessmate.cloud)                                        | A multi-engine chess analysis PWA with online (AWS Lambda) and local (WASM) engine support, plus an iOS app.                                                       | TypeScript, AWS CDK                |
-| [Our Wedding Website](https://github.com/eddmann/our-wedding-website)       | Serverless PHP/Symfony project demonstrating DDD, Hexagonal Architecture, CQRS, and Event Sourcing; used to teach core patterns with Terraform and robust testing. | PHP, Terraform, Serverless         |
-| [santa-lang](https://eddmann.com/santa-lang/)                               | A functional, C-like programming language for solving Advent of Code puzzles.                                                                                      | Rust, TypeScript                   |
-| [Name That Color](https://namethatcolor.cloud)                              | Real-time colour detection for names, RGB, and HEX with accessibility in mind.                                                                                     | TypeScript, AWS CDK                |
-| [Serverless Fargate](https://www.serverless.com/plugins/serverless-fargate) | Serverless Framework plugin for long‑running Fargate ECS tasks (8k+ weekly downloads).                                                                             | JavaScript, Serverless Framework   |
-| [DailyThing](https://dailything.cloud)                                      | Delivers personalised, bite‑sized content—funny, inspiring, or educational—throughout the day.                                                                     | PHP, TypeScript, AWS CDK           |
-| [Rubik's Cube Solver](https://eddmann.com/rubik-cube-solver/)               | 3×3×3 Rubik's Cube solver using Thistlethwaite's algorithm.                                                                                                        | Rust, React, Three.js              |
+**[santa-lang](https://eddmann.com/santa-lang/)** · _A programming language for Advent of Code_<br>
+Functional, C-like language with implementations in [Rust](https://github.com/eddmann/santa-lang-rs) (CLI, WASM, Lambda, PHP extension, Jupyter kernel), [TypeScript](https://github.com/eddmann/santa-lang-ts), and a [bytecode VM](https://github.com/eddmann/santa-lang-blitzen).
+
+**[c3](https://github.com/eddmann/c3)** · _Chess engine in C++23_<br>
+Magic bitboards, iterative deepening, alpha-beta pruning, transposition tables, and UCI protocol.
+
+---
+
+## What I Work With
+
+**Languages:** TypeScript, PHP, Rust, Swift, Go, Python, C/C++
+
+**Cloud:** AWS (Lambda, CDK, Fargate, EventBridge), Terraform, Serverless Framework
+
+**Interests:** DDD, language design, LLM tooling, low-level emulation, distributed systems
+
+---
+
+## Recent Focus: LLM Tooling
+
+Building MCP servers to connect LLMs with real-world data:
+
+- **[obsidian-mcp](https://github.com/eddmann/obsidian-mcp)** — Access git-backed Obsidian vaults through Claude/ChatGPT
+- **[garmin-connect-mcp](https://github.com/eddmann/garmin-connect-mcp)** — Query workouts, sleep, heart rate, and training load
+- **[strava-mcp](https://github.com/eddmann/strava-mcp)** — Analyze runs, rides, and segment performance
+- **[whatsapp-mcp](https://github.com/eddmann/whatsapp-mcp)** — Search conversations and send messages
+
+---
+
+<details>
+<summary><strong>All Projects</strong></summary>
+
+### Applications
+
+| Project                                        | Description                                                          | Tech                 |
+| ---------------------------------------------- | -------------------------------------------------------------------- | -------------------- |
+| [MyPodcast](https://mypodcast.cloud)           | Turns saved articles and YouTube videos into a narrated podcast feed | PHP, Laravel         |
+| [Chessmate](https://chessmate.cloud)           | Multi-engine chess analysis PWA with online and local (WASM) engines | TypeScript, PWA      |
+| [DailyThing](https://dailything.cloud)         | Personalised, bite-sized content throughout the day                  | PHP, TypeScript, PWA |
+| [Name That Color](https://namethatcolor.cloud) | Real-time colour detection for names, RGB, and HEX                   | TypeScript, PWA      |
+
+### macOS & iOS
+
+| Project                                                 | Description                                           |
+| ------------------------------------------------------- | ----------------------------------------------------- |
+| [VoiceScribe](https://github.com/eddmann/VoiceScribe)   | Privacy-first transcription with WhisperKit + MLX     |
+| [ClaudeMeter](https://github.com/eddmann/ClaudeMeter)   | Menu bar app for tracking Claude.ai usage limits      |
+| [ClipVault](https://github.com/eddmann/ClipVault)       | Encrypted clipboard manager with AES-256              |
+| [CaffeineMate](https://github.com/eddmann/CaffeineMate) | Keep your Mac awake with configurable timers          |
+| [Ovlo](https://github.com/eddmann/Ovlo)                 | Guided breathing exercises for Apple Watch and iPhone |
+
+### Hardware
+
+| Project                                                           | Description                                  |
+| ----------------------------------------------------------------- | -------------------------------------------- |
+| [pico-2fa-totp](https://github.com/eddmann/pico-2fa-totp)         | Raspberry Pi Pico 2FA TOTP generator         |
+| [pico-secret-santa](https://github.com/eddmann/pico-secret-santa) | Pico + SIM800L Secret Santa allocator/sender |
+
+### Explorations
+
+| Project                                                               | Description                                         | Tech                                                                                                                                                                                                                                                         |
+| --------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [phpboy](https://github.com/eddmann/phpboy)                           | Game Boy Color emulator with full DMG compatibility | PHP 8.4                                                                                                                                                                                                                                                      |
+| [c3](https://github.com/eddmann/c3)                                   | Chess engine with magic bitboards and UCI           | C++23                                                                                                                                                                                                                                                        |
+| [Rubik's Cube Solver](https://eddmann.com/rubik-cube-solver/)         | Thistlethwaite's algorithm with 3D visualization    | Rust, React, Three.js                                                                                                                                                                                                                                        |
+| [advent-of-code](https://github.com/eddmann/advent-of-code)           | Multi-year solutions, different language each year  | Various                                                                                                                                                                                                                                                      |
+| [Our Wedding Website](https://github.com/eddmann/our-wedding-website) | DDD, CQRS, Event Sourcing on Lambda                 | PHP, Terraform                                                                                                                                                                                                                                               |
+| Secret Santa Series                                                   | Same draw, different platforms                      | [Arcade](https://github.com/eddmann/secret-santa-draw-arcade) · [Game Boy](https://github.com/eddmann/secret-santa-draw-gbc) · [App](https://github.com/eddmann/secret-santa-draw) · [Step Functions](https://github.com/eddmann/step-function-secret-santa) |
+
+</details>
+
+---
+
+## Writing & Podcasts
+
+- 📝 [eddmann.com](https://eddmann.com) — Projects and technology I'm building
+- 🎙️ [Compiled Conversations](https://compiledconversations.com/) — Interviewing influential figures in software
+- 🎙️ [Three Devs and a Maybe](https://threedevsandamaybe.com/) (2013–2019) — 160+ episodes on software development
