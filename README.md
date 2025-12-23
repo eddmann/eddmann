@@ -20,7 +20,7 @@ Serverless Framework plugin for long-running Fargate ECS tasks. Used in producti
 Full DMG compatibility, 100% Blargg test pass rate. CLI, WebAssembly, and SDL2 frontends.
 
 **[santa-lang](https://eddmann.com/santa-lang/)** · _A programming language for Advent of Code_<br>
-Functional, C-like language with implementations in [Rust](https://github.com/eddmann/santa-lang-rs) (CLI, WASM, Lambda, PHP extension, Jupyter kernel), [TypeScript](https://github.com/eddmann/santa-lang-ts), and a [bytecode VM](https://github.com/eddmann/santa-lang-blitzen).
+Functional, C-like language with implementations in [Rust](https://github.com/eddmann/santa-lang-comet) (CLI, WASM, Lambda, PHP extension, Jupyter kernel), [TypeScript](https://github.com/eddmann/santa-lang-prancer), and a [bytecode VM](https://github.com/eddmann/santa-lang-blitzen).
 
 **[c3](https://github.com/eddmann/c3)** · _Chess engine in C++23_<br>
 Magic bitboards, iterative deepening, alpha-beta pruning, transposition tables, and UCI protocol.
