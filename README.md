@@ -7,14 +7,14 @@
 [![Podcast](https://img.shields.io/badge/Podcast-Compiled_Conversations-8B5CF6)](https://compiledconversations.com)
 
 **Languages:** TypeScript, PHP, Rust, Swift, Go, Python<br>
-**Cloud:** AWS (Lambda, CDK, Fargate, EventBridge), Terraform, Serverless Framework<br>
-**Interests:** Language design, LLM tooling, low-level emulation, distributed systems
+**Cloud:** AWS (Lambda, CDK, Fargate, EventBridge), Cloudflare, Terraform, Serverless Framework<br>
+**Interests:** Language design, agentic development, developer tooling, personal software
 
 ---
 
 ## Highlights
 
-**[serverless-fargate](https://github.com/eddmann/serverless-fargate)** · _11k+ weekly downloads_<br>
+**[serverless-fargate](https://github.com/eddmann/serverless-fargate)** · _16k+ weekly downloads_<br>
 Maintain long-running Fargate ECS tasks within your Serverless project.
 
 **[phpboy](https://github.com/eddmann/phpboy)** · _Game Boy Color emulator in PHP 8.4_<br>
@@ -22,6 +22,31 @@ Full DMG backward compatibility, high accuracy (100% Blargg pass rate), and mult
 
 **[c3](https://github.com/eddmann/c3)** · _Chess engine in C++23_<br>
 Educational chess engine with magic bitboards, iterative deepening, alpha-beta pruning, transposition tables, and UCI protocol.
+
+**[pwa-kit](https://github.com/eddmann/pwa-kit)** · _PWA to native iOS_<br>
+Turn your Progressive Web App into a native iOS app with full access to native capabilities.
+
+---
+
+## AI & Agents
+
+Autonomous agents and developer tools:
+
+| Project                                                               | Description                                                                                           |
+| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [jeeves](https://github.com/eddmann/jeeves)                           | Personal AI assistant in Telegram, powered by Claude. Self-extending via skills and persistent memory |
+| [my-own-coding-agent](https://github.com/eddmann/my-own-coding-agent) | Educational Python coding agent with provider-agnostic LLM support and extensible tool suite          |
+| [revu](https://github.com/eddmann/revu)                               | Desktop Git diff reviewer with inline commenting for AI coding agent workflows                        |
+
+MCP servers and CLI tools (with agent skills) — exploring different ways to connect LLMs to the real-world:
+
+| Service        | MCP                                                                 | CLI                                                                 |
+| -------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Garmin Connect | [garmin-connect-mcp](https://github.com/eddmann/garmin-connect-mcp) | [garmin-connect-cli](https://github.com/eddmann/garmin-connect-cli) |
+| Strava         | [strava-mcp](https://github.com/eddmann/strava-mcp)                 | [strava-cli](https://github.com/eddmann/strava-cli)                 |
+| WhatsApp       | [whatsapp-mcp](https://github.com/eddmann/whatsapp-mcp)             | [whatsapp-cli](https://github.com/eddmann/whatsapp-cli)             |
+| Obsidian       | [obsidian-mcp](https://github.com/eddmann/obsidian-mcp)             | -                                                                   |
+| Intervals.icu  | [intervals-icu-mcp](https://github.com/eddmann/intervals-icu-mcp)   | -                                                                   |
 
 ---
 
@@ -42,30 +67,13 @@ A functional programming language built for [Advent of Code](https://adventofcod
 
 ---
 
-## MCP Servers
-
-Model Context Protocol servers that connect LLMs to real-world data:
-
-| Server                                                              | Description                                                                         |
-| ------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [obsidian-mcp](https://github.com/eddmann/obsidian-mcp)             | Access and manage notes in git-backed Obsidian vaults with automatic sync           |
-| [garmin-connect-mcp](https://github.com/eddmann/garmin-connect-mcp) | Interact with Garmin Connect - activities, health metrics, sleep, and training      |
-| [strava-mcp](https://github.com/eddmann/strava-mcp)                 | Interact with Strava - activities, segments, routes, and training analysis          |
-| [whatsapp-mcp](https://github.com/eddmann/whatsapp-mcp)             | Interact with WhatsApp - messaging, full-text search, contacts, and media           |
-| [intervals-icu-mcp](https://github.com/eddmann/intervals-icu-mcp)   | Interact with Intervals.icu - training data, wellness metrics, and workout planning |
-
----
-
 ## CLI Tools
 
-| Tool                                                                | Description                                                                     |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| [phpx](https://github.com/eddmann/phpx)                             | Run PHP scripts with inline dependencies. Like npx/uvx for PHP                  |
-| [buns](https://github.com/eddmann/buns)                             | Run TypeScript scripts with inline npm dependencies - no package.json needed    |
-| [garmin-connect-cli](https://github.com/eddmann/garmin-connect-cli) | Garmin Connect from your terminal. Pipe it, script it, automate it              |
-| [strava-cli](https://github.com/eddmann/strava-cli)                 | Strava from your terminal. Pipe it, script it, automate it                      |
-| [whatsapp-cli](https://github.com/eddmann/whatsapp-cli)             | WhatsApp from your terminal. Pipe it, script it, automate it                    |
-| [turbo-png](https://github.com/eddmann/turbo-png)                   | Fast lossless PNG optimization and lossy compression with Zopfli and imagequant |
+| Tool                                              | Description                                                                     |
+| ------------------------------------------------- | ------------------------------------------------------------------------------- |
+| [phpx](https://github.com/eddmann/phpx)           | Run PHP scripts with inline dependencies. Like npx/uvx for PHP                  |
+| [buns](https://github.com/eddmann/buns)           | Run TypeScript scripts with inline npm dependencies - no package.json needed    |
+| [turbo-png](https://github.com/eddmann/turbo-png) | Fast lossless PNG optimization and lossy compression with Zopfli and imagequant |
 
 ---
 
@@ -73,13 +81,14 @@ Model Context Protocol servers that connect LLMs to real-world data:
 
 Native Swift/SwiftUI apps, available via [Homebrew](https://github.com/eddmann/homebrew-tap):
 
-| App                                                     | Description                                                                           |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| [VoiceScribe](https://github.com/eddmann/VoiceScribe)   | Privacy-first transcription with global hotkey, on-device WhisperKit + MLX            |
-| [ClaudeMeter](https://github.com/eddmann/ClaudeMeter)   | Track Claude.ai plan usage in real-time with session limits and smart notifications   |
-| [ClipVault](https://github.com/eddmann/ClipVault)       | Secure clipboard manager with AES-256 encryption, smart filtering, and rich text      |
-| [CaffeineMate](https://github.com/eddmann/CaffeineMate) | Keep your Mac awake with configurable timers, global shortcuts, and display control   |
-| [Ovlo](https://github.com/eddmann/Ovlo)                 | Guided breathing exercises, meditations, and ambient music for iPhone and Apple Watch |
+| App                                                     | Description                                                                              |
+| ------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| [VoiceScribe](https://github.com/eddmann/VoiceScribe)   | Privacy-first transcription with global hotkey, on-device WhisperKit + MLX               |
+| [ClaudeMeter](https://github.com/eddmann/ClaudeMeter)   | Track Claude.ai plan usage in real-time with session limits and smart notifications      |
+| [ClipVault](https://github.com/eddmann/ClipVault)       | Secure clipboard manager with AES-256 encryption, smart filtering, and rich text         |
+| [CaffeineMate](https://github.com/eddmann/CaffeineMate) | Keep your Mac awake with configurable timers, global shortcuts, and display control      |
+| [Wav](https://github.com/eddmann/Wav)                   | iOS labor contraction timer with Live Activities, Dynamic Island, and real-time guidance |
+| [Ovlo](https://github.com/eddmann/Ovlo)                 | Guided breathing exercises, meditations, and ambient music for iPhone and Apple Watch    |
 
 ---
 
@@ -97,7 +106,7 @@ Native Swift/SwiftUI apps, available via [Homebrew](https://github.com/eddmann/h
 
 ## Writing & Podcasts
 
-- 📝 [eddmann.com](https://eddmann.com) - Projects and things I'm building
+- 📝 [eddmann.com](https://eddmann.com) - Projects, weeknotes, and things I'm building
 - 🎙️ [Compiled Conversations](https://compiledconversations.com/) - Interviewing people shaping software and technology
 - 🎙️ [Three Devs and a Maybe](https://threedevsandamaybe.com/) (2013-2019) - 160+ episodes on software development
 
@@ -114,6 +123,8 @@ Native Swift/SwiftUI apps, available via [Homebrew](https://github.com/eddmann/h
 | [advent-of-code](https://github.com/eddmann/advent-of-code)           | Solutions to the annual Advent calendar of programming puzzles                         | Various                                                                                                                                                                                                |
 | [Our Wedding Website](https://github.com/eddmann/our-wedding-website) | Because every RSVP website needs DDD, CQRS, Hexagonal Architecture, and Event Sourcing | PHP, Terraform                                                                                                                                                                                         |
 | Secret Santa Series                                                   | Same draw, different platforms                                                         | [Arcade](https://github.com/eddmann/secret-santa-draw-arcade) · [Game Boy](https://github.com/eddmann/secret-santa-draw-gbc) · [Step Functions](https://github.com/eddmann/step-function-secret-santa) |
+| [f1-picks-2026](https://github.com/eddmann/f1-picks-2026)             | Family F1 driver picking game. React 19 + Cloudflare Workers + Hono + D1               | TypeScript                                                                                                                                                                                             |
+| [step-wars](https://github.com/eddmann/step-wars)                     | Fitness challenge app where friends compete by tracking daily steps                    | TypeScript                                                                                                                                                                                             |
 
 ### Hardware
 
